@@ -69,14 +69,21 @@
 #     for j in range(1,i+1): # 内层循环 - 控制列
 #         print(f"{j} x {i} = {j * i}", end="\t")
 #     print()
+# print(range(5,10,2))
+# for i in range(5,10,1):
+#     print(i, end=" ")
 
 
 
+#for 循环的外部能访问i
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(f"{i}*{j}={i*j}",end=' ')
+        continue
+    print(end='\n')
+print(i)
 
-
-
-
-
+#for循环都是自己加1 range包头不包尾
 
 
 

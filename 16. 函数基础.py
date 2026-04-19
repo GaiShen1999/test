@@ -70,3 +70,25 @@ def function_c():
 function_a()
 
 print("函数调用完毕 ~")
+
+
+# def 函数参数由于类型不限制所以需要自己限制
+# None 等同于false ,0  ,空串 其他和true一样
+# def的左缩进不能访问右缩进
+
+# 函数3: 计算圆的面积, 周长 -- 半径 ----> 如果返回值有多个, 多个返回值之间逗号分隔 ---> 多个返回值会封装到元组之中
+def circle_area_len(r):
+    """
+
+    :param r:
+    :return:
+    """
+    return round(3.14 * r * r, 1), round(2 * 3.14 * r, 1)
+#
+# al = circle_area_len(10)
+# print(al)
+# print(type(al))
+#
+# area, length = circle_area_len(10) # 解包
+# print(area)
+# print(length)

@@ -35,14 +35,14 @@
 #
 # s2 = {"A", "B", "C", "D", "E", "X", "Y"}
 # s3 = {"C", "E", "Y", "Z"}
-# # difference() : 求两个集合的差集 (存在于第一个集合, 但不存在于第二个集合)
+# # difference() : 求两个集合的差集 (存在于第一个集合, 但不存在于第二个集合) 新集合
 # print(s2.difference(s3))
 # print(s3.difference(s2))
 #
-# # union() : 求两个集合的并集
+# # union() : 求两个集合的并集 新集合
 # print(s2.union(s3))
 #
-# # intersection() : 求两个集合的交集
+# # intersection() : 求两个集合的交集 新集合
 # print(s2.intersection(s3))
 
 
