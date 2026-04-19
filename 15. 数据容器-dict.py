@@ -37,6 +37,7 @@
 # print(dict1.items()) # 获取所有的键值对 key:value
 #
 # # 删除
+
 # score = dict1.pop("许立国")
 # print(score)
 # print(dict1)
